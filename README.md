@@ -2,6 +2,10 @@
 
 
 
+https://github.com/kaffy-qaiser/tune-match/assets/118458784/cd67be78-6439-4f14-855b-7c0e3883f14a
+
+
+
 Tune Match is a dynamic AI powered web application designed to enhance your music experience by leveraging the power of React.js, Node.js, Spotify API, OpenAI API, Tailwind CSS, and MongoDB. It allows users to generate custom playlists, discover new songs with a swipe feature, and manage their liked songs efficiently.
 
 ## Table of Contents
