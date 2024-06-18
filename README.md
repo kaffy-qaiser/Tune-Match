@@ -10,7 +10,11 @@ https://github.com/kaffy-qaiser/tune-match/assets/118458784/0f72df59-a604-45e2-a
 
 
 
-Tune Match is a dynamic AI powered web application designed to enhance your music experience by leveraging the power of React.js, Node.js, Spotify API, OpenAI API, Tailwind CSS, and MongoDB. It allows users to generate custom playlists, discover new songs with a swipe feature, and manage their liked songs efficiently.
+Tune Match is a dynamic AI powered web application designed to enhance your music experience by leveraging the power of React.js, Node.js, Spotify API, OpenAI API, Tailwind CSS, and MongoDB. It allows users to generate custom playlists, discover new songs with a swipe feature, and manage their liked songs efficiently. The UI design choices draw inspiration from the aesthetic of Frank Ocean's "Blond".
+
+
+
+
 
 ## Table of Contents
 - [Features](#features)
