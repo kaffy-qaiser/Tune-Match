@@ -79,6 +79,6 @@ Tune Match is a dynamic AI powered web application designed to enhance your musi
     - View your dashboard for recent activities.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 Enjoy your enhanced music experience with Tune Match!
