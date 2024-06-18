@@ -39,4 +39,24 @@ body {
 .card-text {
   color: #6b7280; /* Tailwind's gray-600 */
 }
+body {
+  background-color: #f2f3f5
+}
 
+.carousel-image {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Ensures the image is a square */
+  object-fit: cover;   /* Ensures the image covers the entire area without distortion */
+  border-radius: 0.5rem; /* Optional: rounds the corners of the images */
+}
+
+/* Add this CSS to your styles */
+.loader {
+  border-top-color: #3498db;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

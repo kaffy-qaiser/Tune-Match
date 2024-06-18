@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Tune Match
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Download the demo video](./src/assets/tunematch_demo.mp4)
 
-## Available Scripts
+Tune Match is a dynamic AI powered web application designed to enhance your music experience by leveraging the power of React.js, Node.js, Spotify API, OpenAI API, Tailwind CSS, and MongoDB. It allows users to generate custom playlists, discover new songs with a swipe feature, and manage their liked songs efficiently.
 
-In the project directory, you can run:
+## Table of Contents
+- [Features](#features)
+    - [Login Page](#login-page)
+    - [Playlist Generator](#playlist-generator)
+    - [Find Songs](#find-songs)
+    - [Liked Songs Page](#liked-songs-page)
+    - [Dashboard](#dashboard)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Login Page
+- Users can log in using Spotify OAuth for a seamless and secure authentication experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Playlist Generator
+- Generates playlists using Spotify API and OpenAI API.
+- Users can prompt the generator with commands like "Make me a summer playlist."
+- The generated playlist is created on the user's Spotify account, and a link to the playlist is provided.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Find Songs
+- A Tinder-like feature that lets users discover new songs by swiping right to like or left to skip.
+- Users can listen to song previews and save their liked songs.
 
-### `npm run build`
+### Liked Songs Page
+- Displays all liked songs.
+- Users can add all their liked songs to a new playlist on their Spotify account.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Dashboard
+- Shows recently listened to songs and top artists.
+- Includes a web player for recent songs, providing an integrated music listening experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+- [React.js](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+- [Spotify API](https://developer.spotify.com/documentation/web-api/)
+- [OpenAI API](https://beta.openai.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [MongoDB](https://www.mongodb.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kaffy-qaiser/tune-match.git
+   cd tune-match
+   ```
 
-### `npm run eject`
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Set up environment variables:
+    - Create a `.env` file in the root directory.
+    - Add your Spotify API credentials, OpenAI API key, and MongoDB connection string.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Log in using your Spotify account.
+3. Explore the various features:
+    - Generate custom playlists.
+    - Discover new songs with the swipe feature.
+    - Manage your liked songs and create playlists.
+    - View your dashboard for recent activities.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy your enhanced music experience with Tune Match!

@@ -1,0 +1,67 @@
+/* src/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align items to the ends */
+    align-items: center;
+    background-color: #ffffff; /* Use a pure white background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    width: 100%; /* Ensure the navbar spans the entire width */
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar is above other elements */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar:hover {
+    background-color: #f8f8f8; /* Slightly different background on hover for a subtle effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.nav-logo {
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold;
+    color: #333; /* Slightly softer black for the logo */
+    transition: color 0.3s;
+    font-style: italic;
+}
+
+.nav-logo:hover {
+    color: #28a745; /* Change logo color on hover */
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px; /* Add spacing between menu items */
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: #28a745;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+    border-radius: 6px;
+}
+
+.nav-button:hover {
+    color: #218838;
+    background-color: rgba(40, 167, 69, 0.1);
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.nav-button:active {
+    color: #1e7e34;
+    background-color: rgba(40, 167, 69, 0.2);
+}
+
+.nav-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.4);
+}
+
